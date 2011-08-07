@@ -6,8 +6,8 @@
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<scm>
-		<url>scm:git:/Users/guido/wrk/</url>
-		<developerConnection>scm:git:/Users/guido/wrk/</developerConnection>
+		<url>scm:git:/Users/guido/wrk/${artifactId}/.git</url>
+		<developerConnection>scm:git:/Users/guido/wrk/${artifactId}/.git</developerConnection>
 	</scm>
 	<distributionManagement>
 		<repository>
