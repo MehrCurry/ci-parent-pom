@@ -6,8 +6,8 @@
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<scm>
-		<url>scm:git:/Users/guido/wrk/${artifactId}/.git</url>
-		<developerConnection>scm:git:/Users/guido/wrk/${artifactId}/.git</developerConnection>
+		<url>scm:git:git@github.com:MehrCurry/ci-parent-pom.git</url>
+		<developerConnection>scm:git:git@github.com:MehrCurry/ci-parent-pom.git</developerConnection>
 	</scm>
 	<distributionManagement>
 		<repository>
