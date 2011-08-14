@@ -6,7 +6,7 @@
 	<packaging>pom</packaging>
 	<issueManagement>
 		<system>JIRA</system>
-		<url>http://builder:8080/jira/</url>
+		<url>http://builder:8081/jira/</url>
 	</issueManagement>
 	<ciManagement>
 		<system>Jenkins</system>
@@ -21,12 +21,12 @@
 		<repository>
 			<id>central</id>
 			<name>local-releases</name>
-			<url>http://localhost:8081/artifactory/libs-release-local</url>
+			<url>http://builder:8081/artifactory/libs-release-local</url>
 		</repository>
 		<snapshotRepository>
 			<id>snapshots</id>
 			<name>local-snapshots</name>
-			<url>http://localhost:8081/artifactory/libs-snapshot-local</url>
+			<url>http://builder:8081/artifactory/libs-snapshot-local</url>
 		</snapshotRepository>
 	</distributionManagement>
 	<properties>
